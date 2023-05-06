@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+header {
+
+    width: 100%;
+    padding: 20px 100px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo{
+    font-size: 2em;
+    color: antiquewhite;
+    user-select: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button{
+    text-decoration: none;
+    background-color: black;
+    color: antiquewhite;
+    height: 50px;
+    width: 120px;
+}
+
+.btn-entrar{
+text-decoration: none;
+background-color: rgb(0, 0, 0);
+color: #fff;
+}
+
+.btn-regis{
+text-decoration: none;
+background-color: yellow;
+color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.espacio{
+    color: black;
+}
+
+input{
+    background-color: rgba(44, 41, 41, 0.979);
+    margin: auto;
+}
+
+body{
+    background-color: rgba(44, 41, 41, 0.904);
+
+}
+.containerMain{
+
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.caja{
+    display: flex;
+    
+}
+.todas-p{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    width: 1500px;
+    
+}
+
+
+.caja img{
+
+    height: 350px;
+    width: 250px;
+    padding: 0 0 5px 10px
+    
+}
+
+
+
